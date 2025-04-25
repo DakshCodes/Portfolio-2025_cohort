@@ -22,18 +22,26 @@ body {
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     display: flex;
     justify-content: space-between;
-    padding: 7px 14px;
+    padding: 7px 20px;
 }
 
 .nav-menus {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 20px;
 }
 
 .nav-menus a {
     text-decoration: none;
     color: #000;
+    height: 22px;
+    width: 22px;
+}
+
+.nav-menus a img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .nav-contact {
@@ -45,6 +53,14 @@ body {
 .nav-contact a {
     text-decoration: none;
     color: #000;
+    height: 22px;
+    width: 22px;
+}
+
+.nav-contact a img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .nav-contact .button {
